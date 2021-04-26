@@ -1,0 +1,173 @@
+body{
+ margin: 0;
+ font-family: "Helvetica", sans-serif;
+}
+
+.menu ul{
+  margin: 0;
+  background-color: #920000;
+  list-style: none;
+}
+
+.menu ul li{
+  display: inline;
+}
+
+.menu ul li a{
+  padding: 30px 30px;
+  display: inline-block;
+
+  color: white;
+  text-decoration: none;
+}
+
+.logomarca{
+  float: left;
+  width: 130px;
+}
+
+li a:hover{
+    background-color: rgb(185, 49, 49);
+}
+.box{
+  position: absolute;
+  top: 48px;
+  width: 480px;
+  padding: 24px 10px 24px 40px;
+  display: center;
+  margin-left: 200px;
+}
+
+.cardapio {
+  background-color: rgb(196, 47, 47, 0.5);
+  padding-top: 50px;
+  padding-bottom: 116px;
+  margin-left: 170px;
+  margin-right: 190px;
+
+}
+
+.logocardapio{
+  display: block;
+    margin-left: 350px;
+    margin-right: auto;
+    width: 300px;
+    padding-bottom: 50px;
+}
+
+
+.imgitens{
+  display: block;
+    margin-left: -75px;
+    margin-right: auto;
+    width: 130px;
+    height: 75px;
+    margin-top: -50px;
+}
+
+article{
+  display: flex; 
+  margin: 50px auto; 
+  width: 450px;
+
+}
+
+.itens{
+  background-color: white;
+  width: 600px;
+  height: 75px;
+  margin-left: 200px;
+  text-align: 500px;
+  border-width: 2px;  
+  border-style: groove;  
+  border-color: black;
+  border-color: rgb(158, 33, 33);
+  margin-top: 8px;
+  
+}
+
+p{
+  position: absolute;
+  margin-left: 100px;
+  margin-top: -25px;
+  font-size: 23px;
+  
+    
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+
+
+.miojos{
+  background-color: white;
+  width: 600px;
+  height: 150px;
+  margin-left: 200px;
+  text-align: 500px;
+  border-width: 2px;  
+  border-style: groove;  
+  border-color: black;
+  border-color: rgb(158, 33, 33);
+  margin-top: 8px;
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: 55px;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.imgdrop{
+  width: 200px;
+  height: 150px;
+  
+}
+
+.preco{
+  background-color: rgb(196, 47, 47, 0.5);
+  width: 75px;
+  height: 55px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 400px;
+  margin-top: -42.5px;
+  padding-top: 1px;
+  color: #000000;
+}
+
+.sobrenos{
+  background-color: white;
+  width: 600px;
+  height: 75px;
+  margin-left: 200px;
+  text-align: 500px;
+  border-width: 2px;  
+  border-style: groove;  
+  border-color: black;
+  border-color: rgb(158, 33, 33);
+  margin-top: 8px;
+}
